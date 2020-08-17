@@ -1,0 +1,35 @@
+.keyboard{
+    width: 65%;
+    height: 400px;
+    background-color: black;
+    border: 25px solid #221352;
+    border-radius: 1rem;
+    color: #00b4b9;
+    padding: 10px;
+}
+.divider{
+    height: 0;
+    width: 179px;
+    margin-bottom: 50px;
+    margin-top: -45px;
+    box-shadow: 1px 8px 28px 11px #e0005b;
+}
+.active{
+    transform: scale(.95);
+}
+span{
+    position: relative;
+    margin: 0 0.156%;
+    background-color: #2f007c;
+    border-radius: .25rem;
+    display: inline-block;
+}
+span>span{
+    position: absolute;
+    border-color: rgba(0,0,0,0.1);
+    background-color: #3a009c;
+    border-radius: .25rem;
+    text-indent: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
