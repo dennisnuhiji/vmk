@@ -164,7 +164,8 @@ export const secondRow = [
         label: 'BACKSPACE',
         textColor: '#e0005b',
         keycapColor: '#241652',
-        keyColor: '#1f1248'
+        keyColor: '#1f1248',
+        fontSize: '18px'
     },
     {
         key: 'insert',
